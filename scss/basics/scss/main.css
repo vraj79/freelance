@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.main .main__para1, .main .main__para2 {
+  font-weight: 600;
+}
+.main .main__para1:hover, .main .main__para2:hover {
+  color: red;
+}
+.main .main__para2:hover {
+  color: blue;
+}
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+}
+
+.light {
+  background: white;
+  color: black;
+}/*# sourceMappingURL=main.css.map */

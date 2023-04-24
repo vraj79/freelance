@@ -1,0 +1,58 @@
+.mainCon{
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.mainCon div:first-child{
+    flex: 2;
+    /* background-color: #fff; */
+}
+.mainCon div:last-child{
+    flex: 1;
+}
+.mainCon1-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+    background-color: #fff;
+}
+.mainCon1-1 div:last-child{
+    display: flex;
+    gap: 3rem;
+}
+.mainCon1-2{
+    display: flex;
+    gap: 3rem;
+    padding: 2.7rem;
+}
+.mainCon1-2 button{
+    margin: 10px;
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #00ffd0;
+    cursor: pointer;
+    font-weight: 600;
+}
+.imgCon img{
+    display: block;
+    margin: auto;
+}
+.mainCon1-2 button:hover{
+    background-color: #2aa18c;
+}
+.mainCon1-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 0 3.7rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+.mainCon1-3 div p:first-of-type{
+    color: gray;
+    margin-bottom: 0.5rem;
+}
